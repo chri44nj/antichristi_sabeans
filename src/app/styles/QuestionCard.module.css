@@ -1,0 +1,33 @@
+.questionCard {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  min-width: 33%;
+  aspect-ratio: 8/5;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.questionCard * {
+  color: var(--accent-crimson);
+}
+
+.cardQuestion {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.25rem;
+}
+
+.cardCategory {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.cardNumber {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
